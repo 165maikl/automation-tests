@@ -1,2 +1,2 @@
-# automation-tests2
+# automation-tests
 For Barancev's courses
