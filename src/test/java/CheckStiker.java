@@ -26,7 +26,7 @@ public class CheckStiker {
     }
 
     @Test
-    public void myCheckStiker() throws InterruptedException {
+    public void myCheckStiker() {
         //открыть главную страницу магазина
         driver.get("http://localhost/litecart/");
         //ожидание загрузки страницы

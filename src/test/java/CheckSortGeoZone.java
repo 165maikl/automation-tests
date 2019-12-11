@@ -83,7 +83,7 @@ public class CheckSortGeoZone {
 //                    System.out.println(textSortListOfGeoZones.get(m));
 //                }
 
-            //сравниваем список и отсортированный текстовый список геозон
+            //сравниваем текстовый список и отсортированный текстовый список геозон
             Assert.assertEquals(textListOfGeoZones, textSortListOfGeoZones);
 
             //переходим на предыдущую страницу
