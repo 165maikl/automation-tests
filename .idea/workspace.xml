@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b196028-4447-473b-b935-53f785e61d65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,20 +50,54 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2772" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CheckSortCountries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="990">
               <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1574440504883" expanded="true" signature="2055:2097" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LeftMenuClick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CheckStiker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="23" column="17" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SingUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CheckSortGeoZone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -93,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/test/java/CheckSortGeoZone.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckStiker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SingUp.java" />
       </list>
     </option>
   </component>
@@ -119,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,12 +166,6 @@
               <item name="automation-tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="automation-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automation-tests" type="b2602c69:ProjectViewProjectNode" />
@@ -154,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -183,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CheckSortSubmenu">
+  <component name="RunManager" selected="TestNG.SingUp.mySingUp">
     <configuration name="CheckSortCountries" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -228,18 +257,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckStiker.myCheckStiker" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckStiker" />
-      <option name="METHOD_NAME" value="myCheckStiker" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LeftMenuClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -251,13 +268,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingUp.mySingUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SingUp" />
+      <option name="METHOD_NAME" value="mySingUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SingUp.mySingUp" />
         <item itemvalue="TestNG.CheckSortSubmenu" />
         <item itemvalue="TestNG.CheckSortCountries" />
         <item itemvalue="TestNG.CheckSortGeoZone" />
         <item itemvalue="TestNG.LeftMenuClick" />
-        <item itemvalue="TestNG.CheckSortSubmenu" />
       </list>
     </recent_temporary>
   </component>
@@ -275,21 +304,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckSortSubmenu - 2019.11.22 at 19h 45m 29s.xml">
-      <configuration name="CheckSortSubmenu" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LeftMenuClick - 2019.11.22 at 19h 48m 55s.xml">
-      <configuration name="LeftMenuClick" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CheckSortGeoZone - 2019.11.25 at 16h 05m 45s.xml">
-      <configuration name="CheckSortGeoZone" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CheckSortCountries - 2019.11.25 at 16h 05m 59s.xml">
-      <configuration name="CheckSortCountries" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CheckSortSubmenu - 2019.11.25 at 16h 06m 36s.xml">
-      <configuration name="CheckSortSubmenu" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CheckSortGeoZone - 2019.11.25 at 16h 06m 50s.xml">
       <configuration name="CheckSortGeoZone" configurationId="TestNG" />
     </history-entry>
@@ -305,12 +319,27 @@
     <history-entry file="CheckSortSubmenu - 2019.11.25 at 16h 25m 08s.xml">
       <configuration name="CheckSortSubmenu" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SingUp_mySingUp - 2019.12.11 at 18h 30m 08s.xml">
+      <configuration name="SingUp.mySingUp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SingUp_mySingUp - 2019.12.11 at 18h 39m 09s.xml">
+      <configuration name="SingUp.mySingUp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SingUp_mySingUp - 2019.12.11 at 18h 39m 31s.xml">
+      <configuration name="SingUp.mySingUp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SingUp_mySingUp - 2019.12.11 at 18h 41m 57s.xml">
+      <configuration name="SingUp.mySingUp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SingUp_mySingUp - 2019.12.11 at 18h 43m 06s.xml">
+      <configuration name="SingUp.mySingUp" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -542,27 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckSortGeoZone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LeftMenuClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1006">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckStiker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CheckSortSubmenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -587,18 +595,44 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2772" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CheckSortCountries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state relative-caret-position="990">
           <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1574440504883" expanded="true" signature="2055:2097" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LeftMenuClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckStiker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="17" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckSortGeoZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SingUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
         </state>
       </provider>
     </entry>
