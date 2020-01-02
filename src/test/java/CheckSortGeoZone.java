@@ -67,13 +67,12 @@ public class CheckSortGeoZone {
 
             //создаем сортированную копию текстового списка геозон
             textSortListOfGeoZones = new ArrayList<String>(textListOfGeoZones);
+            Collections.sort(textSortListOfGeoZones);
 
 //                //проверяем вывод в консоль текстового списка геозон
 //                for (int l = 0; l < 5; l++) {
 //                    System.out.println(textListOfGeoZones.get(l));
 //                }
-
-            Collections.sort(textSortListOfGeoZones);
 
 //                //проверяем обратный порядок сортировки
 //                Collections.reverse(textListOfGeoZones);

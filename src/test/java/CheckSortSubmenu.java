@@ -41,9 +41,9 @@ public class CheckSortSubmenu {
         //переход на страницу выполнения теста
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
 
-        // определение списка стран
+        //определение списка стран
         listOfCountries = driver.findElements(By.xpath("//td[5]/a"));
-        // сохраняем количество стран
+        //сохраняем количество стран
         numberOfCountries = listOfCountries.size();
 
 
@@ -56,32 +56,32 @@ public class CheckSortSubmenu {
             //ждем загрузки контента
             wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h1")));
 
-            // определение списка пунктов подменю
+            //определение списка пунктов подменю
             submenuPoints = driver.findElements(By.cssSelector("#table-zones tr"));
-            // сохраняем количество пунктов подменю
+            //сохраняем количество пунктов подменю
             submenuQuantity = submenuPoints.size();
 
             //подменю есть
             if (submenuQuantity > 2) {
-                // определение списка пунктов подменю
+                //определение списка пунктов подменю
                 submenuPoints1 = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]"));
-                // создаем текстовый список подменю
+                //создаем текстовый список подменю
                 textListOfSubmenu = new ArrayList<String>();
                 for (WebElement e : submenuPoints1) {
                     textListOfSubmenu.add(e.getText());
                 }
 
-                // обрезаем пустую запись в текстовом списке подменю
+                //обрезаем пустую запись в текстовом списке подменю
                 textListOfSubmenu.removeAll(Collections.singleton(""));
 
-                // создаем отсортированную копию текстового списка подменю
+                //создаем отсортированную копию текстового списка подменю
                 textSortListOfSubmenu = new ArrayList<String>(textListOfSubmenu);
                 Collections.sort(textSortListOfSubmenu);
 
-                // сравниваем текстовый список подменю с его отсортированной копией
+                //сравниваем текстовый список подменю с его отсортированной копией
                 Assert.assertEquals(textListOfSubmenu, textSortListOfSubmenu);
 
-                // переходим на предыдущую страницу
+                //переходим на предыдущую страницу
                 driver.navigate().back();
 
                 // подменю нет

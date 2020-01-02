@@ -40,22 +40,22 @@ public class CheckSortCountries {
         //переход на страницу выполнения теста
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
 
-        // определение списка стран
+        //определение списка стран
         listOfCountries = driver.findElements(By.xpath("//td[5]/a"));
-        // сохраняем количество стран
+        //сохраняем количество стран
         numberOfCountries = listOfCountries.size();
 
-        // создаем текстовый список стран
+        //создаем текстовый список стран
         textListOfCountries = new ArrayList<String>();
         for(WebElement e : listOfCountries){
             textListOfCountries.add(e.getText());
         }
 
-        // создаем сортированную копию текстового списка стран
+        //создаем сортированную копию текстового списка стран
         textSortListOfCountries = new ArrayList<String>(textListOfCountries);
         Collections.sort(textSortListOfCountries);
 
-        // сравниваем значения текстового список стран и его отсортированной копии
+        //сравниваем значения текстового список стран и его отсортированной копии
         Assert.assertEquals(textListOfCountries, textSortListOfCountries);
     }
 
