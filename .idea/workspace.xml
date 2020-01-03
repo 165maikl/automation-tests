@@ -10,8 +10,6 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/CheckStiker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckStiker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SingUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingUp.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -58,6 +57,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -68,6 +69,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -87,6 +89,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -99,6 +103,7 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -143,13 +148,16 @@
       </pane>
     </panes>
   </component>
+=======
+  <component name="ProjectId" id="1UU1vBgj7aiZ6eMb8n02djXqYr9" />
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -168,11 +176,19 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.AddNewProduct.myCheckNewProduct">
     <configuration name="AddNewProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AddNewProduct" />
+=======
+  <component name="RunManager" selected="TestNG.CheckCorrectPage (1)">
+    <configuration name="CheckCorrectPage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LitecartProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckCorrectPage" />
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -180,12 +196,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="AddNewProduct.myCheckNewProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AddNewProduct" />
       <option name="METHOD_NAME" value="myCheckNewProduct" />
       <option name="TEST_OBJECT" value="METHOD" />
+=======
+    <configuration name="CheckCorrectPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LitecartProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckCorrectPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="CheckSortSubmenu" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="CheckCorrectPage.myCheckCorrectPage" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
+      <module name="LitecartProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckCorrectPage" />
+      <option name="METHOD_NAME" value="myCheckCorrectPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="LeftMenuClick (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeftMenuClick" />
+=======
+    <configuration name="CheckSortCountries (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LitecartProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckSortCountries" />
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="SingUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SingUp" />
+=======
+    <configuration name="CheckSortSubmenu (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LitecartProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckSortSubmenu" />
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -203,47 +279,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftMenuClick (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LeftMenuClick" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SingUp" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingUp.mySingUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SingUp" />
-      <option name="METHOD_NAME" value="mySingUp" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="TestNG.AddNewProduct.myCheckNewProduct" />
         <item itemvalue="TestNG.AddNewProduct" />
         <item itemvalue="TestNG.SingUp.mySingUp" />
         <item itemvalue="TestNG.SingUp" />
         <item itemvalue="TestNG.LeftMenuClick (1)" />
+=======
+        <item itemvalue="TestNG.CheckCorrectPage (1)" />
+        <item itemvalue="TestNG.CheckCorrectPage.myCheckCorrectPage" />
+        <item itemvalue="TestNG.CheckCorrectPage" />
+        <item itemvalue="TestNG.CheckSortCountries (1)" />
+        <item itemvalue="TestNG.CheckSortSubmenu (1)" />
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +310,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="AddNewProduct_myCheckNewProduct - 2020.01.03 at 01h 01m 07s.xml">
       <configuration name="AddNewProduct.myCheckNewProduct" configurationId="TestNG" />
@@ -324,6 +375,20 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,7 +396,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CheckSortSubmenu.java</url>
           <line>87</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -358,6 +422,7 @@
       </expression>
     </expressions>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,4 +769,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> c4b23c09fa0e50b450c2447fd95a9d4dcab66106
 </project>
